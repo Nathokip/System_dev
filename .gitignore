@@ -1,0 +1,20 @@
+# Rust compiled artifacts and build cache
+/target/
+
+# Local NGINX runtime files, logs, and temporary buffers
+nginx.pid
+access.log
+error.log
+nginx_temp/
+
+# Environment variables and local secrets (if you add a .env file later)
+.env
+.env.*
+
+# Editor and OS clutter
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
